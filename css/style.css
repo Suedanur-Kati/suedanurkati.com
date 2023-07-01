@@ -1820,6 +1820,20 @@ fieldset[disabled] .s-btn {
     display: block;
   }
 }
+@media (max-width: 768px) {
+    .s-header-v2__logo-img {
+        height: 70px !important;
+        width: 65px !important;
+    }
+}
+@media (max-width: 768px) {
+    .s-header-v2__logo-text {
+        height: 70px !important;
+        width:250px !important;
+    }
+}
+
+
 
 @media (max-width: 61.9em) {
   .s-header-v2__logo {
