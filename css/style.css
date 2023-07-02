@@ -2066,7 +2066,9 @@ fieldset[disabled] .s-btn {
   position: fixed;
   right: 3.125rem;
   bottom: -3.125rem;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1.875rem;
   height: 3rem;
   z-index: 9;
@@ -2076,7 +2078,21 @@ fieldset[disabled] .s-btn {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  text-decoration: none; /* Eklendi */
+  overflow: hidden; /* Eklendi */
 }
+
+.s-back-to-top svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #ffffff;
+}
+
+.s-back-to-top:focus,
+.s-back-to-top:hover {
+  background: #0c8aa9;
+}
+
 
 .s-back-to-top:before {
   display: block;
