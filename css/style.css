@@ -2101,7 +2101,6 @@ fieldset[disabled] .s-btn {
   font-family: themify;
   color: #fff;
   line-height: 3rem;
-  content: "\e627";
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
